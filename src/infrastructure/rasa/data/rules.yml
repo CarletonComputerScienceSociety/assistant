@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Respond with Hello World every time the user wants intent
+  steps:
+  - intent: hello_world
+  - action: action_hello_world
